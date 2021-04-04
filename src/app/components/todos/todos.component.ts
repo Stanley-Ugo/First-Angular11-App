@@ -13,7 +13,7 @@ export class TodosComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.todos = [
+    this.todo = [
       {
         content: 'First Todo',
         completed: false,
